@@ -8,7 +8,7 @@ function sumar () {
     document.getElementById("resultado").innerText = resultado
 }
 
-function pizzeria_Pepos() {
+function pizzeria_pepitos() {
     let edad = document.querySelector("#edad_pizzeria").value
     let sexo = document.querySelector("#sexo_pizzeria").value
 
