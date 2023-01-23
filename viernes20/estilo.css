@@ -1,0 +1,7 @@
+.degrade {
+    background: rgb(213, 42, 218);
+    background: -moz-linear-gradient(66deg, rgba(213, 42, 218, 1) 0%, rgba(82, 216, 199, 0) 45%, rgba(143, 214, 116, 1) 100%);
+    background: -webkit-linear-gradient(66deg, rgba(213, 42, 218, 1) 0%, rgba(82, 216, 199, 0) 45%, rgba(143, 214, 116, 1) 100%);
+    background: linear-gradient(66deg, rgba(213, 42, 218, 1) 0%, rgba(82, 216, 199, 0) 45%, rgba(143, 214, 116, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#d52ada", endColorstr="#8fd674", GradientType=1);
+}

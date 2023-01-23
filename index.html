@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main class="container text-center mt">
+        <input type="text" id="sumar_usuario">
+        <button class="btn btn-success" onclick="sumar()">Resultado</button>
+        <h1>Respuesta total <span id="resultado"></span></h1>
+    </main>
+    <section class="container">
+        <h1>Ejercicio 3 Pizzeria</h1>
+        <div class="row">
+            <div class="mb-3 col-3">
+                <label for="edad_pizzeria" class="form-label">Digite la edad</label>
+                <input type="number" class="form-control" id="edad_pizzeria">
+            </div>
+            <div class="col-5">
+                <label for="edad_pizzeria" class="form-label">Sexo del usuario</label>
+                <select class="form-select" id="sexo_pizzeria">
+                    <option selected disabled>Seleccione sexo</option>
+                    <option value="hombre">es hombre</option>
+                    <option value="mujer">es mujer</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <button class="btn btn-dark fw-bold" onclick="pizzeria_pepitos()">Validar info</button>
+            </div>
+            <h3 id="resultado_pizzeria"></h3>
+        </div>
+    </section>
+
+    <section class="container">
+        <h1>Ejercicio 4</h1>
+        <div class="row">
+            <div class="mb-3 col-3">
+                <label for="pedido_comida" class="form-label">Digite lo que desea comer</label>
+                <input type="text" class="form-control" id="pedido_comida">
+            </div>
+            <div class="col-3">
+                <button class="btn btn-warning fw-bold" onclick="solicitar_comida()">Solicitar</button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="mb-3 col-1">
+            <label for="numero_tabla" class="form-label">Digite la tabla que desea</label>
+            <input type="number" class="form-control" id="numero_tabla">
+        </div>
+        <div class="mb-3 col-1">
+            <label for="limite_tabla" class="form-label">Digite hasta donde la desea</label>
+            <input type="number" class="form-control" id="limite_tabla">
+        </div>
+        <button class="btn btn-primary" onclick="generar_tabla()">Generar tabla de multiplicar</button>
+        <div id="resultado_tabla"></div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="codigo.js"></script>
+</body>
+    
+
+
+    <script src="codigo1.js"></script>
+</body>
+
+</html>
